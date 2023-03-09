@@ -15,6 +15,12 @@ public class HolaM {
     
         System.out.println("hola mundaso");
         
+        int a ;
+        
+        a = 22;
+        
+        System.out.println(a);
+        
     }
     
 }
