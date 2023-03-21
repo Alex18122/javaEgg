@@ -21,6 +21,8 @@ public class HolaM {
         
         System.out.println(a);
         
+        String f = "asdas";    
+        
     }
     
 }
