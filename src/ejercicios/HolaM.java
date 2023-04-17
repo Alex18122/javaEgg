@@ -4,6 +4,7 @@
  * and open the template in the editor.
  */
 package ejercicios;
+import java.util.Scanner;
 
 /**
  *
@@ -13,17 +14,20 @@ public class HolaM {
     
     public static void main(String[] args){
     
-        System.out.println("hola mundaso");
-        
         int a ;
+        int b ;
+        Scanner s = new Scanner(System.in);
         
-        a = 22;
+        System.out.println("Ingrese dos numeros");
+        System.out.println("primer numero :");
+
+        a = s.nextInt();
         
-        System.out.println(a);
+        System.out.println("segundo numero :");
         
-        String f = "asdas";    
+        b = s.nextInt();
         
-        System.out.println(f + "asdsadgit   " );
+        System.out.println("la suma de los dos numeros es : " + (a+b));
     }
     
 }
